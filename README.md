@@ -1,32 +1,128 @@
 # Employee Leave Management System
 
-A simple Python + Streamlit project. Employees can check their leave balance and apply for
-**full day** or **half day** leave. Every approved leave is saved in a txt file.
+## About the Project
 
-## Files
+The **Employee Leave Management System** is a beginner-friendly Python learning project built using **Python and Streamlit**. It helps manage employee information, check leave balances, and apply for full-day or half-day leave.
 
-| File | Job |
-|---|---|
-| `app.py` | The screen (Streamlit frontend) |
-| `backend.py` | Rules, date calculation, reading/writing files |
-| `employee_data.txt` | Employee ID, name, assigned leaves, leave balance |
-| `leave_records.txt` | One line for every approved leave |
-| `requirements.txt` | Packages to install |
-| `EXPLANATION_FOR_SIR.md` | Mistakes found, full explanation, test cases, viva questions |
+This project was developed to practice Python programming concepts and apply them in a practical application.
 
-## How to run
+## Features
 
-1. Open this folder in VS Code.
-2. Open the terminal and run: `pip install -r requirements.txt`
-3. Then run: `streamlit run app.py`
-4. The browser opens by itself. Try Employee ID: `VC01`, `VC02`, `VC03`, `VC04`.
+- Add and manage employee information.
+- Search employees using their employee ID.
+- View employee leave balances.
+- Apply for full-day and half-day leave.
+- Validate employee IDs and leave dates.
+- Prevent leave applications for past dates.
+- Check leave balance before applying for leave.
+- Store employee and leave information in text files.
+- Display leave status and summaries using charts.
 
-## Leave rules
+## Technologies Used
 
-- Full Day: choose From and To date. Saturday and Sunday are not counted.
-- Half Day: choose First Half or Second Half and ONE date. It uses 0.5 day.
+- Python
+- Streamlit
+- File handling using text files
+- `datetime` for date validation and calculations
+- Git and GitHub for version control
+
+## Project Structure
+
+```text
+leave_project/
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── data/
+├── services/
+├── styles/
+├── utils/
+└── views/
+```
+
+- **app.py** — Main application entry point.
+- **data/** — Stores employee and leave-related data in text files.
+- **services/** — Contains employee and leave management logic.
+- **styles/** — Contains styling-related files.
+- **utils/** — Contains helper functions and formatting utilities.
+- **views/** — Contains the Streamlit user interface components.
+- **requirements.txt** — Lists the Python dependencies required to run the project.
+
+## Leave Management Rules
+
+- Employees can apply for full-day or half-day leave.
+- Full-day leave can be applied for a date range.
+- Saturdays and Sundays are excluded from full-day leave calculations, according to the configured rules.
+- Half-day leave can be applied for the first half or second half of a single day.
 - Past dates are not allowed.
-- The same date cannot be applied twice.
-- Leave is rejected if the balance is not enough.
+- Duplicate leave applications for the same date are prevented according to the application's validation rules.
+- Leave applications are rejected when the employee has insufficient leave balance.
+- Employee and leave records are stored in text files.
 
-To change the weekend holidays, edit `WEEKEND_DAYS` at the top of `backend.py`.
+## Installation and Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/DivyaWaman/employee-leave-management-system.git
+```
+
+### 2. Open the Project Folder
+
+```bash
+cd employee-leave-management-system
+```
+
+### 3. Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the Virtual Environment
+
+For Windows PowerShell:
+
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+
+### 5. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 6. Run the Application
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser, or Streamlit will provide a local URL to open.
+
+## Learning Objectives
+
+Through this project, I practiced:
+
+- Python variables, data types, dictionaries, and functions.
+- Conditional statements and loops.
+- File handling and data storage.
+- Exception handling and input validation.
+- Date and time calculations using `datetime`.
+- Organizing code into separate modules.
+- Building interactive user interfaces using Streamlit.
+- Displaying data using charts.
+- Using Git and GitHub for version control.
+
+## Project Purpose
+
+This project is part of my Python learning journey. It demonstrates how Python fundamentals can be combined to build a simple, practical application while improving my problem-solving and coding skills.
+
+## Future Improvements
+
+- Add employee authentication.
+- Introduce a database for persistent data storage.
+- Add leave approval workflows.
+- Improve reporting and employee dashboards.
