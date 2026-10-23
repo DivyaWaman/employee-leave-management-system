@@ -1,0 +1,6 @@
+VC01|Amit Patil|10|5
+VC02|Priya Sharma|15|11
+VC03|Rahul Deshmukh|12|8
+VC04|Sneha Kulkarni|20|17
+VC05|Neha Joshi|8|6.5
+VC06|sunil|10|1

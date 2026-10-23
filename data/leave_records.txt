@@ -1,0 +1,30 @@
+VC01|Amit Patil|Full Day|15-09-2026|15-09-2026|1|10-09-2026|Approved
+VC01|Amit Patil|Half Day (First Half)|18-09-2026|18-09-2026|0.5|12-09-2026|Approved
+VC01|Amit Patil|Full Day|22-09-2026|22-09-2026|1|15-09-2026|Approved
+VC01|Amit Patil|Half Day (Second Half)|25-09-2026|25-09-2026|0.5|20-09-2026|Approved
+VC01|Amit Patil|Full Day|05-10-2026|05-10-2026|1|01-10-2026|Approved
+
+VC02|Priya Sharma|Full Day|10-09-2026|10-09-2026|1|05-09-2026|Approved
+VC02|Priya Sharma|Full Day|20-09-2026|20-09-2026|1|15-09-2026|Approved
+VC02|Priya Sharma|Half Day (First Half)|08-10-2026|08-10-2026|0.5|01-10-2026|Approved
+VC02|Priya Sharma|Full Day|12-10-2026|12-10-2026|1|01-10-2026|Approved
+
+VC03|Rahul Deshmukh|Full Day|05-09-2026|05-09-2026|1|01-09-2026|Approved
+VC03|Rahul Deshmukh|Half Day (Second Half)|15-09-2026|15-09-2026|0.5|10-09-2026|Approved
+VC03|Rahul Deshmukh|Full Day|25-09-2026|25-09-2026|1|20-09-2026|Approved
+VC03|Rahul Deshmukh|Half Day (First Half)|15-10-2026|15-10-2026|0.5|01-10-2026|Approved
+
+VC04|Sneha Kulkarni|Full Day|12-09-2026|12-09-2026|1|05-09-2026|Approved
+VC04|Sneha Kulkarni|Full Day|18-09-2026|18-09-2026|1|10-09-2026|Approved
+VC04|Sneha Kulkarni|Full Day|25-09-2026|25-09-2026|1|15-09-2026|Approved
+
+VC05|Neha Joshi|Half Day (First Half)|20-09-2026|20-09-2026|0.5|15-09-2026|Approved
+VC05|Neha Joshi|Full Day|10-10-2026|10-10-2026|1|01-10-2026|ApprovedVC06|sunil|Full Day|14-10-2026|14-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|15-10-2026|15-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|16-10-2026|16-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|19-10-2026|19-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|20-10-2026|20-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|21-10-2026|21-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|22-10-2026|22-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|23-10-2026|23-10-2026|1|01-10-2026|Approved
+VC06|sunil|Full Day|26-10-2026|26-10-2026|1|01-10-2026|Approved
